@@ -16,7 +16,7 @@
 <%@include file="all_js_css.jsp"%>
 <title>View Notes</title>
 </head>
-<body style="background-color: #efebe9;">
+<body style="background-color: #e1f5fe;">
     <div>
     <%@include file="navbar.jsp"%>
     </div>
