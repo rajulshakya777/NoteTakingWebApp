@@ -7,7 +7,7 @@
 <%@include file="all_js_css.jsp"%>
 <title>Take notes</title>
 </head>
-<body>
+<body style="background-color: #efebe9;">
     <div>
     <%@include file="navbar.jsp"%>
     </div>

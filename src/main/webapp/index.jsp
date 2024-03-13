@@ -8,12 +8,17 @@
 <%@include file="all_js_css.jsp"%>
 <title>Note App</title>
 </head>
-<body>
+<body style="background-color: #efebe9;">
 	<div>
 		<%@include file="navbar.jsp"%>
 	</div>
-	<div class="container">
-		<h1>This is home page!!</h1>
+	<div class="text-center">
+		<img class="img-fluid mx-auto pt-4 pb-6" style="max-width: 400px;"
+			alt="" src="images/notes.png">
+		<h1 class="pt-4">"Writing is thinking on paper" - William Zinsser</h1>
+		<div class="container text-center mt-5">
+			 <a	href="add_notes.jsp" class="btn btn-primary">Start making your notes</a>
+		</div>
 	</div>
 	<div>
 		<%@include file="footer.jsp"%>

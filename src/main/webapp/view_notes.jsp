@@ -16,14 +16,14 @@
 <%@include file="all_js_css.jsp"%>
 <title>View Notes</title>
 </head>
-<body>
+<body style="background-color: #efebe9;">
     <div>
     <%@include file="navbar.jsp"%>
     </div>
 	<div class="container">
 		<br>
 		<div class="container">
-			<h1>All Notes :</h1>
+			<h1>All Your Notes</h1>
 
 			<div class="row">
 				<div class="col-12">

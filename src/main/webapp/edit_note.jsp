@@ -8,7 +8,7 @@
 <%@include file="all_js_css.jsp"%>
 <title>Edit notes</title>
 </head>
-<body>
+<body style="background-color: #efebe9;">
     <div>
     <%@include file="navbar.jsp"%>
     </div>

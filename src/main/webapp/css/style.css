@@ -6,3 +6,8 @@
 .notes-body-color{
 	background: #e0f2f1;
 }
+
+.card{
+	background: linear-gradient(0deg, #fff, 50%, rgb(217, 252, 199))
+}
+	
