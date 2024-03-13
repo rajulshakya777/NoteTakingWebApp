@@ -1,4 +1,8 @@
 @charset "UTF-8";
 .navbar-colour{
-	background: #9ccc65;
+	background:#9ccc65;
+}
+
+.notes-body-color{
+	background: #e0f2f1;
 }

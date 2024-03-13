@@ -8,23 +8,27 @@
 <title>Take notes</title>
 </head>
 <body>
+    <div>
+    <%@include file="navbar.jsp"%>
+    </div>
 	<div class="container">
-		<%@include file="navbar.jsp"%>
 		<br>
 
-		<h1>Add your notes</h1>
+		<h1>Add Your Notes</h1>
 
 		<!-- Add notes -->
 		<form action="SaveNoteServlet" method="post">
 			<div class="form-group">
-				<label for="title">Note title</label> <input required type="text"
-					class="form-control" id="titile" aria-describedby="emailHelp"
-					placeholder="Enter text">
+				<label for="title">Note title</label> <input required name="title"
+					type="text" class="form-control" id="titile"
+					aria-describedby="emailHelp" placeholder="Enter text" />
 			</div>
 			<div class="form-group">
+
 				<label for="content">Note content</label>
-				<textarea required id="content" placeholder="Enter text"
-					class="form-control" style="height: 350px"></textarea>
+				<textarea required name="content" id="content"
+					placeholder="Enter text" class="form-control"
+					style="height: 350px;"></textarea>
 			</div>
 			<div class="container text-center">
 				<button type="submit" class="btn btn-success btn-lg">Save</button>
@@ -32,5 +36,6 @@
 		</form>
 
 	</div>
+<%@include file = "footer.jsp" %>
 </body>
 </html>

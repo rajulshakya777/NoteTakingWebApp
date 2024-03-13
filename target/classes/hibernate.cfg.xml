@@ -5,9 +5,9 @@
 <hibernate-configuration>
 	<session-factory>
 	    <!-- The dialect specifies the type of database used in hibernate so that hibernate generate appropriate type of SQL statements. -->
-		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.url">jdbc:mysql://ec2-18-219-80-216.us-east-2.compute.amazonaws.com:3306/NoteAppDB</property>
+		<property name="hibernate.connection.url">jdbc:mysql://ec2-18-219-80-216.us-east-2.compute.amazonaws.com:3306/NoteAppDB?useSSL=false</property>
 		<property name="hibernate.connection.username">rajul</property>
 		<property name="hibernate.connection.password">Rs123123</property>
 		<!-- you can create and update the table if it is not in DB. If create, it create new table everytime-->
